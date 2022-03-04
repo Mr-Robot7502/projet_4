@@ -253,7 +253,7 @@ a:hover {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .btn-wire,
@@ -347,7 +347,7 @@ a:hover {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: black;
     width: 26px;
 }
 
@@ -641,19 +641,10 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
+h1,h2,h3,h4,h5,h6,p,label,.btn,a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000!important;
 }
 
 .container {
@@ -779,9 +770,14 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+.tc-orange{
+    color:#F3976C!important;
+}
 .tc-white {
-    color: #Ffff!important;
+    color: #ffff!important;
+}
+.tc-black { 
+    color:#000!important;
 }
 
 .btn-atomic-tangerine {
@@ -813,14 +809,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg-min.png");
 }
 
 .bg-banniere {
@@ -979,8 +967,8 @@ h4 {
         float: left;
         margin-left: 10px;
     }
-    .bg-banniere {
-        background-image: url("img/texture-paper-min.png");
+    .bg-banniere{
+        background-image: none
     }
     .bloc {
         padding-left: 0;
@@ -1035,7 +1023,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
-    .row-no-gutters {
+    .row-no-gutters{
         display:flex;
         justify-content:space-between
     }
